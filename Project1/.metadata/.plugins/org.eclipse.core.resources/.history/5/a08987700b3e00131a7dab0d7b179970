@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ESS134 Project 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<header id="pageHeader">
+  <hgroup>
+    <h1>ESS134 Project 1</h1>
+  </hgroup>
+</header>
+<nav id="mainNav">
+  <h2>Contents</h2>
+  <ul>
+    <li><a href="#introduction" class="gallery current">Introduction</a> </li>
+    <li><a href="#modelDescription" class="gear">Model Description</a></li>
+    <li><a href="#baDataFitting" class="interact">Barium Data Fitting</a></li>
+    <li><a href="#uncertaintyEstimation" class="shop">Uncertainty Estimation</a></li>
+    <li><a href="#srDiffusivityCorrection" class="shop">Strontium Diffusivity Correction</a></li>
+    <li><a href="#reference" class="shop">Reference</a></li>
+  </ul>
+</nav>
+<section id="content">
+
+  	<a name="introduction"></a>
+    <h1>Introduction</h1>
+    <p>In this project, I used the Barium diffusion profile inside a sanidine to inverse the crystal's age, estimated its uncertainty and gave a correction to the Strontium diffusivity.</p>
+    <img src="./NS1_23.jpg" width="800" height="600" alt="EM Picture">
+    <h2>So... what aren't we?</h2>
+    <p>Professional photographers, for one. Please keep in mind that we're strictly amature photographers. We submit these galleries out of love and creatvie expression. We're not likely to remember the settings we took the picture at, or even what lens we had. We're also not very exclusive. If you like what you see here, and want to participate, we'd love to have you. All galleries, articles, and posts go through a submittal and approval process, so if you're interested, drop us a line and tell us what you have in mind.</p>
+    <p>We also occasionally have meetups. If, for example, we know we're coming to Miami, we'll let everyone know and schedule a meet up day to tour the city and take photos. If you'd like us to visit your city, let us know!</p>
+    <section class="news">
+    <h2>Upcoming cities</h2>
+    <p>Want to be a part of a Desolve.org meetup? Check out our upcoming dates and contact us if you'd like to hang out and shoot some photos with us!</p>
+    <ul>
+    <li>San Antonio <span>Jan 03</span></li>
+    <li>Salt Lake City <span>Jan 23</span></li>
+    <li>Grand Rapids <span>March 05</span></li>
+    <li>Charleston <span>April 13</span></li>
+    <li>San Francisco <span>June 03</span></li>
+    <li>Seatlle <span>July 16</span></li>
+    </ul>
+    </section>
+    <section class="news">
+    <h2>Photographers rights</h2>
+    <p>Due to the heightened security concerns around the country, it has become common to find photographers routinely challanged when taking photographs in public places. With that in mind, we invite you to join us in a free forum as noted photographer Shea Hansen presents "Photographer's Rights in a Post 9/11 World."</p>
+    <p>Shea will discuss what your rights are when taking photos in a public space. Following her talk we'll have an open forum where you can ask questions, compare experiences, and become better informed as to what your responsibilities are as amatuer photographers.</p>
+    <p>The forum will be held at the Cheek-Chastain Gallery, 227 West 29th Street in Manhatten on March 19th as part of their "Engage" lecture series</p>
+    </section>
+  </article>
+  <aside>
+    <nav id="archives">
+      <h2>Archived Galleries</h2>
+      <ul>
+        <li><a href="charlotte.htm" title="charlotte">Charlotte</a></li>
+        <li><a href="miami.htm" title="miami">Miami</a></li>
+        <li><a href="denver.htm" title="denver">Denver</a></li>
+        <li><a href="boston.htm" title="boston">Boston</a></li>
+        <li><a href="cincinnati.htm" title="cincinnati">Cincinnati</a></li>
+        <li><a href="lost_angeles.htm" title="los angeles">Los Angeles</a></li>
+        <li><a href="charleston.htm" title="charleston">Charleston</a></li>
+        <li><a href="dallas.htm" title="dallas">Dallas</a></li>
+        <li><a href="providence.htm" title="providence">Providence</a></li>
+        <li><a href="birmingham.htm" title="birmingham">Birmingham</a></li>
+        <li><a href="cleveland.htm" title="cleveland">Cleveland</a></li>
+        <li><a href="baltimore.htm" title="balitmore">Baltimore</a></li>
+      </ul>
+    </nav>
+    <section class="contest">
+      <h2>This month's contest</h2>
+      <img src="_images/contest.jpg" width="200" height="200" alt="This month's contest">
+      <p>Do you know where this is? Send your guess to us via the contact page. All correct entries will be added to a drawing at the end of the month. The randomly selected winner will win a framed print of their choice from our shop. Cool! <span class="enter"><a href="#" title="enter our contest">Enter</a></span></p>
+    </section>
+    <section class="contest">
+      <h2>Previous contest</h2>
+      <img src="_images/previous.jpg" width="200" height="200" alt="This month's contest">
+      <p>Cultural District, Denver CO</p>
+    </section>
+  </aside>
+</section>
+<footer id="pageFooter">
+  <form action="http://desolve.org" method="post" class="search-form">
+    <label for="search">Looking for something?</label>
+    <input type="search" placeholder="Search" title="Search" class="q" name="search" id="search">
+    <input type="submit" class="submit" value="Go" name="submit">
+  </form>
+  <p><a href="http://www.twitter.com/jameswillweb">twitter</a></p>
+  <p class="notice">&copy; 2011 desolve.org</p>
+</footer>
+</body>
+</html>
